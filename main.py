@@ -76,4 +76,5 @@ urlField.pack(side=TOP, fill=X, padx=10, pady=10)
 dBtn = Button(main, text="Start Download", font=("verdana", 18), relief='ridge', command=startDownloadThread)
 dBtn.pack(side=TOP, pady=10)
 
+#main object called infinitely
 main.mainloop()
